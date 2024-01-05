@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CUSTOM CSS LINK IS HERE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- SHERY CSS LINK IS HERE -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <!-- LOCOMOTIVE SCROLL CSS LINK IS HERE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!—- ICONS LINK—-> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+    </div>
+    <!-- LOCOMOTIVE SCROLL LINK IS HEREE -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP LINK IS HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER LINK IS HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- THREE JS LINK IS HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <!-- DEBUG KIT LINK IS HERE -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <!-- SHERY JS LINK IS HERE -->
+    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+    <!-- CUSTOM JS LINK IS HERE -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CUSTOM CSS LINK IS HERE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LOCOMOTIVE SCROLL CSS LINK IS HERE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- <!— ICONS LINK—> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+    </div>
+    <!-- LOCOMOTIVE SCROLL LINK IS HEREE -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP LINK IS HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER LINK IS HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- CUSTOM JS LINK IS HERE -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+01741662835 coder sir number
+
+
+
+gsap.registerPlugin(ScrollTrigger);
+const locoScroll = new LocomotiveScroll({
+  el: document.querySelector("#main"),
+  smooth: true
+});
+locoScroll.on("scroll", ScrollTrigger.update);
+ScrollTrigger.scrollerProxy("#main", {
+  scrollTop(value) {
+    return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
+  },
+  getBoundingClientRect() {
+    return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+  },
+  pinType: document.querySelector("#main").style.transform ? "transform" : "fixed"
+});
+ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+ScrollTrigger.refresh();
+
+
+
+ALwALIDSARKERJOMI@591/
+ALwALIDSARKERJOMI@591/kick
+alwalidsarker????alwalidsarker591
+Land@1234
+Rafiqun@123
+GitHub pass console.log(eval('2 + 2') === eval(new String('2 + 2')));
+common pass : htmlcssjavascript
